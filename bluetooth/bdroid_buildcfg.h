@@ -35,6 +35,7 @@ static inline const char* BtmGetDefaultName()
         return "ZTE Nubia Z17";
     if (strstr(product_device, "nx595j"))
         return "ZTE Nubia Z17s";
+    
     // Fallback to ro.product.model
     return "";
 }
